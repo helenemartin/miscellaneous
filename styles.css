@@ -15,7 +15,7 @@ h2 {
     width: 100%;
     font-size: 4em;
     font-family: "philosopher", sans-serif;
-    text-align: center;
+    /* text-align: center; */
     font-weight: 700;
     letter-spacing: 7px;
     background-size: cover;
