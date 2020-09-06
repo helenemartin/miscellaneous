@@ -1,12 +1,12 @@
 body {
-    margin:0;
     font-size: 1.125rem;
+    margin:0;
     font-family: 'Roboto', sans-serif;
 }
-header {
-    text-align: center;
-}
 
+h2 {
+    font-family: "philosopher", "sans-serif";
+}
 .trns-text {
     background: url(https://img.freepik.com/free-photo/colorful-dramatic-sky-with-cloud-sunset-sky-with-sun-background_33736-1538.jpg?size=626&ext=jpg)   20px 20px no-repeat;
     -webkit-text-fill-color: transparent;
@@ -14,10 +14,10 @@ header {
     display:block;
     width: 100%;
     font-size: 2em;
-    font-family: "philosopher", "sans serif";
+    font-family: "arial";
     text-align: center;
     font-weight: 700;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     background-size: cover;
     background-position: -87% 15%;
     margin: 0;
@@ -33,13 +33,12 @@ header {
 .columns {
     display: flex;
     justify-content: space-between;
-    margin: 1em 0;
+    margin: 1 em 0;
 }
 
 .col-1 {
     width: 20%;
-    text-align: justify;
-    text-indent: 10px;
+    
 }
 .col-2 {
     width: 45%;
@@ -49,17 +48,20 @@ header {
     width: 70%;    
 }
 
-.col-bg {
-    background-image:url('https://mdn.mozillademos.org/files/7693/catfront.png');
-    background-repeat: no-repeat;
-    color: #fff;
+/* .col-bg {
+    background: peachpuff;
+    color: #fff;;
     padding: 1em;
-}
+} */
 
-@media (min-width: 980px) {
-    .container {
-        display-flex;
+@media (max-width: 600px) {
+    .columns {
         flex-direction: row;
     }
     
+    .col-1,
+    .col-2,
+    .col-3 {
+        width: 100%;
+    }
 }
