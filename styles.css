@@ -1,6 +1,6 @@
 body {
     margin:0;
-    font-size: 14;
+    font-size: 1.125rem;
     font-family: 'Roboto', sans-serif;
 }
 header {
@@ -8,21 +8,29 @@ header {
 }
 
 .trns-text {
-  background: url(https://img.freepik.com/free-photo/colorful-dramatic-sky-with-cloud-sunset-sky-with-sun-background_33736-1538.jpg?size=626&ext=jpg)   20px 20px no-repeat;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  display:block;
-  width: 100%;
-  font-size: 2em;
-  font-family: "philosopher", "sans serif";
-  text-align: center;
-  font-weight: 700;
-  letter-spacing: 10px;
-  background-size: cover;
-  background-position: -87% 15%;
-  margin: 0;
+    background: url(https://img.freepik.com/free-photo/colorful-dramatic-sky-with-cloud-sunset-sky-with-sun-background_33736-1538.jpg?size=626&ext=jpg)   20px 20px no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    display:block;
+    width: 100%;
+    font-size: 2em;
+    font-family: "philosopher", "sans serif";
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 10px;
+    background-size: cover;
+    background-position: -87% 15%;
+    margin: 0;
 
 }
+.container {
+    width: 95%;
+    max-width: 980px;
+    margin: 0 auto;
+
+
+}
+
 
     
 }
