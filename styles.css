@@ -13,8 +13,8 @@ h2 {
     -webkit-background-clip: text;
     display:block;
     width: 100%;
-    font-size: 2em;
-    font-family: "arial";
+    font-size: 4em;
+    font-family: "Arial";
     text-align: center;
     font-weight: 700;
     letter-spacing: 5px;
@@ -27,19 +27,38 @@ h2 {
     width: 95%;
     max-width: 980px;
     margin: 0 auto;
-}   
-
 }
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    margin-top: 0;
+}
+
+
+/*  Layout  */
+
+
+.container {
+    width: 95%;
+    max-width: 980px;
+    margin: 0 auto;
+    transform: rotate(-10deg);
+}
+
 .columns {
     display: flex;
     justify-content: space-between;
-    margin: 1 em 0;
+    margin: 1em 0;
+
 }
 
 .col-1 {
     width: 20%;
-    
 }
+
 .col-2 {
     width: 45%;
 }
@@ -48,15 +67,15 @@ h2 {
     width: 70%;    
 }
 
-/* .col-bg {
-    background: peachpuff;
-    color: #fff;;
+.col-bg {
+    background: #212614;
+    color: #fff;
     padding: 1em;
-} */
+}
 
 @media (max-width: 600px) {
     .columns {
-        flex-direction: row;
+        flex-direction: column;
     }
     
     .col-1,
@@ -65,3 +84,4 @@ h2 {
         width: 100%;
     }
 }
+
